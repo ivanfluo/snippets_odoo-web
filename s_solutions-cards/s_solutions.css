@@ -1,0 +1,97 @@
+.section-custom {
+  background-color: white;
+  margin-top: 3.5em;
+}
+
+.solution-titles {
+  text-align: center;
+}
+
+.solution-titles > p{
+  padding: 0 75px 25px;
+}
+
+.span-custom{
+  font-weight: 700;
+}
+
+
+.card-custom {
+  width: 20em;
+  height: 30em;
+  padding: 1.5em;
+  border-radius: 15px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: end;  
+}
+
+.card-coffee {
+  background: rgb(29, 29, 27);
+  background: linear-gradient(
+      0deg,
+      rgba(29, 29, 27, 1) 4%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url(./img/gree-manos.jpg);
+  transition: all 0.1s;
+
+  margin-right:2.5em ;
+}
+
+.card-cascara {
+  background: rgb(29, 29, 27);
+  background: linear-gradient(
+      0deg,
+      rgba(29, 29, 27, 1) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url(./img/cascara-manos.jpg);
+  transition: all 0.1s;
+
+  margin-left:2.5em 
+}
+
+.card-coffee,
+.card-cascara {
+  color: white;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card-coffee:hover {
+  width: 20.5em;
+  height: 30.5em;
+  box-shadow: 0px 3px 13px -4px rgba(0, 0, 0, 0.75);
+  transition: all 0.1s;
+}
+
+.card-cascara:hover {
+  width: 20.5em;
+  height: 30.5em;
+  box-shadow: 0px 3px 13px -4px rgba(0, 0, 0, 0.75);
+  transition: all 0.1s;
+}
+
+.btn-custom {
+  color: white;
+  background: #b68681;
+  border-radius: 12px;
+  width: 8.3em;
+  text-align: center;
+  padding: 0.5em;
+
+  transition: all 0.2s ease-in-out;
+
+  box-shadow: 0px 3px 13px -4px rgba(0, 0, 0, 0.75);
+}
+
+.btn-custom:hover {
+  color: white;
+  font-weight: bold;
+  width: 8.3em;
+  background: #b68681a4;
+}
