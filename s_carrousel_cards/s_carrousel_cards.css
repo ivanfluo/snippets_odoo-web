@@ -1,0 +1,96 @@
+  .card-custom {
+    width: 20em;
+    min-width: 20em;
+    height: 30em;
+    padding: 1.5em;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;  
+  }
+ 
+  .card-uno{
+    background: rgb(29, 29, 27);
+    background: linear-gradient(
+        0deg,
+        rgba(29, 29, 27, 1) 4%,
+        rgba(255, 255, 255, 0) 100%
+      ),
+      url(./img/state-farms.jpg);
+
+  }
+  
+  .card-dos {
+    background: rgb(29, 29, 27);
+    background: linear-gradient(
+        0deg,
+        rgba(29, 29, 27, 1) 0%,
+        rgba(255, 255, 255, 0) 100%
+      ),
+      url(./img/small-producers.jpg);
+  }
+  
+  .card-tres {
+    background: rgb(29, 29, 27);
+    background: linear-gradient(
+        0deg,
+        rgba(29, 29, 27, 1) 0%,
+        rgba(255, 255, 255, 0) 100%
+      ),
+      url(./img/catación.jpg);
+  }
+
+  .card-cuatro {
+    background: rgb(29, 29, 27);
+    background: linear-gradient(
+        0deg,
+        rgba(29, 29, 27, 1) 0%,
+        rgba(255, 255, 255, 0) 100%
+      ),
+      url(./img/beneficio.jpg);
+  }
+
+  .card-cinco {
+    background: rgb(29, 29, 27);
+    background: linear-gradient(
+        0deg,
+        rgba(29, 29, 27, 1) 0%,
+        rgba(255, 255, 255, 0) 100%
+      ),
+      url(./img/capacitacion.JPG);
+  }
+
+  .card-uno,
+  .card-dos,
+  .card-tres,
+  .card-cuatro,
+  .card-cinco{
+    color: white;
+    text-align: center;
+
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+  
+  .btn-custom {
+    color: white;
+    background: #b68681;
+    border-radius: 12px;
+    width: 8.3em;
+    text-align: center;
+    padding: 0.5em;
+  
+    transition: all 0.2s ease-in-out;
+  
+    box-shadow: 0px 3px 13px -4px rgba(0, 0, 0, 0.75);
+  }
+  
+  .btn-custom:hover {
+    color: white;
+    font-weight: bold;
+    width: 8.3em;
+    background: #b68681a4;
+  }
+  
